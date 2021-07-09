@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+}
+
+/*HEADER*/
+
+.Header{
+    background: url('../img/bg4.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.navbar-brand, .navbar-nav .nav-item .nav-link, .btn-lg{
+    color: #fff !important;
+}
+.navbar-brand{
+    font-size: 3em !important ;
+    font-weight: 800;
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.navbar-toggler{
+    border-color: transparent !important ;
+    color: #fff;
+}
+
+.jumbotron{
+    background-color: transparent !important ;
+}
+
+.jumbotron p{
+    font-size: 3em;
+    color: #000;
+    font-weight: 900;
+}
+
+
+/*COURSE*/
+
+.Course{
+    padding: 100px 30px;
+}
+
+.text h1{
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.card{
+    border: transparent !important ;
+}
+
+.card-text{
+    color: rgb(250, 23, 148);
+    font-weight: 700;
+}
+
+
+.card img{
+    height: 200px;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: rgb(132, 207, 71);
+}
